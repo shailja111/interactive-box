@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="box" onclick="toggleBox(this)">
+            <div class="title">1 Pair - DKK 195.00</div>
+            <div class="content">
+                <select><option>S</option><option>M</option><option>L</option></select>
+                <select><option>Red</option><option>Blue</option><option>Black</option></select>
+            </div>
+        </div>
+
+        <div class="box" onclick="toggleBox(this)">
+            <div class="title">2 Pairs - DKK 345.00 <span class="highlight">(Most Popular)</span></div>
+            <div class="content">
+                <select><option>S</option><option>M</option><option>L</option></select>
+                <select><option>Red</option><option>Blue</option><option>Black</option></select>
+                <select><option>S</option><option>M</option><option>L</option></select>
+                <select><option>Red</option><option>Blue</option><option>Black</option></select>
+            </div>
+        </div>
+
+        <div class="box" onclick="toggleBox(this)">
+            <div class="title">3 Pairs - DKK 528.00</div>
+            <div class="content">
+                <select><option>S</option><option>M</option><option>L</option></select>
+                <select><option>Red</option><option>Blue</option><option>Black</option></select>
+                <select><option>S</option><option>M</option><option>L</option></select>
+                <select><option>Red</option><option>Blue</option><option>Black</option></select>
+                <select><option>S</option><option>M</option><option>L</option></select>
+                <select><option>Red</option><option>Blue</option><option>Black</option></select>
+            </div>
+        </div>
+
+        <div class="add-to-cart">+ Add to Cart</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
