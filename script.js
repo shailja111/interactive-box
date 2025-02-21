@@ -15,9 +15,9 @@ function toggleBox(selectedBox) {
     }
 }
 
-// Prevent closing when clicking inside a dropdown
+
 document.querySelectorAll('.content select').forEach(select => {
     select.addEventListener('click', event => {
-        event.stopPropagation(); // Stop click event from reaching the box
+        event.stopPropagation(); 
     });
 });
